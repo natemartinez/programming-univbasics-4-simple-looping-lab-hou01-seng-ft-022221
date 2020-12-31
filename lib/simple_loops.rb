@@ -29,10 +29,9 @@ end
 def return_string_array(array)
   counter=0
   while counter<array.length 
-  array[counter]="#{array}"
+  array[counter]="#{array[counter]}"
   puts array[counter]
-  
-    counter+=1
+   counter+=1
   end
   array
 end
